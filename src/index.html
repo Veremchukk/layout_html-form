@@ -100,10 +100,25 @@
 
         <label class="form-field">
           Do you love cats?
-          <input type="radio" name="cats">
-          Yes
-          <input type="radio" name="cats">
-          No
+
+          <label for="form-field">
+            <input
+              type="radio"
+              name="cats"
+              value="yes"
+            >
+            Yes
+          </label>
+
+          <label for="form-field">
+            <input
+              type="radio"
+              name="cats"
+              value="no"
+            >
+            No
+          </label>
+
         </label>
 
         <label class="form-field">
@@ -160,12 +175,10 @@
           </select>
 
         </label>
-
-
       </fieldset>
 
-
       <button type="submit">Submit</button>
+
     </form>
   </body>
 </html>
